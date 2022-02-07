@@ -1,0 +1,25 @@
+p::first-letter {
+  color: royalblue;
+  font-family: monospace;
+  font-size: 100px;
+}
+
+p::first-line {
+  color: burlywood;
+}
+
+::selection {
+  background-color: mediumpurple;
+  color: palegoldenrod;
+}
+
+h6::before {
+  font-size: 20px;
+  content: "ZugaZuga";
+}
+
+
+h6::after {
+  font-size: 20px;
+  content: "ZazuZazu";
+}
